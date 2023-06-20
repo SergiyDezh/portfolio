@@ -8,6 +8,7 @@ footer {
 }
 
 .foot {
+    position: absolute;
     width: 100px;
     height: 80px;
     display: block;
@@ -17,6 +18,7 @@ footer {
 
             @media screen and (max-width:480px) {
                     margin-right: 5px;
+                    position: absolute;
                 }
 }
 

@@ -8,60 +8,115 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/scss/main.css">
+    <link rel="stylesheet" href="/scss/main.css" />
     <title>VLADA VSTEPV</title>
   </head>
   <body>
     <header>
-      <div class="head-logo">
+      <div class="header-left">
+        <div class="head-logo">
           <a class="logo" href="./vstepv.html">VLADA VSTEPV</a>
+        </div>
+        <div class="menu">
+          <ul class="ul-menu">
+            <li class="list">
+              <a class="max-menu" href="./vstepv.html">PORTFOLIO</a>
+              <div class="port-menu">
+                <ul class="port-menu-list">
+                  <li class="link-menu">
+                    <a class="min-menu" href="./portrait.html">PORTRAIT</a>
+                  </li>
+                  <li class="link-menu">
+                    <a class="min-menu" href="./fashion.html">FASHION</a>
+                  </li>
+                  <li class="link-menu">
+                    <a class="min-menu" href="./commercial.html">COMMERCIAL</a>
+                  </li>
+                  <li class="link-menu">
+                    <a class="min-menu" href="./beauty.html">BEAUTY</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="list">
+              <a class="max-menu" href="./about-me.html">ABOUT ME</a>
+            </li>
+            <li class="list">
+              <a class="max-menu" href="./contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="menu">
-        <ul class="ul-menu">
-          <li class="list">
-            <a class="max-menu" href="./vstepv.html">PORTFOLIO</a>
-            <div class="port-menu">
-              <ul class="port-menu-list">
-                <li class="link-menu">
-                  <a class="min-menu" href="./portrait.html">PORTRAIT</a>
-                </li>
-                <li class="link-menu">
-                  <a class="min-menu" href="./fashion.html">FASHION</a>
-                </li>
-                <li class="link-menu">
-                  <a class="min-menu" href="./commercial.html">COMMERCIAL</a>
-                </li>
-                <li class="link-menu">
-                  <a class="min-menu" href="./beauty.html">BEAUTY</a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="list">
-            <a class="max-menu" href="./about-me.html">ABOUT ME</a>
-          </li>
-          <li class="list">
-            <a class="max-menu" href="./contact.html">CONTACT</a>
-          </li>
-        </ul>
+      <div class="header-top">
+        <a class="logo-top" href="./vstepv.html">VLADA VSTEPV</a>
+        <button
+          type="button"
+          class="menu-button"
+          aria-expanded="false"
+          aria-controls="menu-container"
+          data-menu-button
+          aria-label="перемикач мобільного меню">
+          <svg class="icon-hover" width="40" height="40">
+            <use class="icon-menu" href="./img/symbol.svg#icon-burger"></use>
+            <use
+              class="icon-cross"
+              href="./img/symbol.svg#icon-menu-close"
+            ></use>
+          </svg>
+        </button>
+      </div>
+      <div class="menu-container" id="menu-container" data-menu>
+        <div class="block-menu-none">
+          <ul class="container-ul">
+            <li class="container-li">
+              <a class="container-a" href="./vstepv.html">PORTFOLIO</a>
+              <div>
+                <ul class="container-ul-for">
+                  <li class="container-list">
+                    <a class="container-b" href="./portrait.html">PORTRAIT</a>
+                  </li>
+                  <li class="container-list">
+                    <a class="container-b" href="./fashion.html">FASHION</a>
+                  </li>
+                  <li class="container-list">
+                    <a class="container-b" href="./commercial.html">COMMERCIAL</a>
+                  </li>
+                  <li class="container-list">
+                    <a class="container-b" href="./beauty.html">BEAUTY</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="container-li">
+              <a class="container-a" href="./about-me.html">ABOUT ME</a>
+            </li>
+            <li class="container-li">
+              <a class="container-a" href="./contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <main>
+            <div class="image">
+              <img class="img" src="./img/img.webp" alt="photo - Vlada Stepanchuk" width="25%" />
+            </div>
       <div class="about">
         <h2 class="title">ABOUT ME</h2>
         <p class="text">
-          Hi, my name is Vladyslava Stepanchuk, iʼm from Ukraine, Kiev.
-          I have been working as a photographer for almost 10 years during this time there were
-          many individual projects, some installations. In may portfolio you can find lookbooks,
-          campaigns, personal shootings, model tests, commercial projects, advertising. Also can
-          give you individual retouching lessons online. With my vision, our vision, i will help you
-          or/and your brand to be more special and unique then before cause every project, client
-          or human in my life itʼs a new step for my Art. Feel free to contact with me in any time 
-          and way that you feel comfortable im.
-
+          Hi, my name is Vladyslava Stepanchuk, iʼm from Ukraine, Kiev. I have
+          been working as a photographer for almost 10 years during this time
+          there were many individual projects, some installations. In may
+          portfolio you can find lookbooks, campaigns, personal shootings, model
+          tests, commercial projects, advertising. Also can give you individual
+          retouching lessons online. With my vision, our vision, i will help you
+          or/and your brand to be more special and unique then before cause
+          every project, client or human in my life itʼs a new step for my Art.
+          Feel free to contact with me in any time and way that you feel
+          comfortable im.
         </p>
       </div>
-      <img class="img" src="./img/img.webp" alt="photo - Vlada Stepanchuk" width="25%" height="auto">
+
     </main>
     <footer>
       <div class="foot">
@@ -70,7 +125,8 @@
             <a
               target="_blank"
               href="https://www.instagram.com/vladislava_vstepv/"
-              class="social-link">
+              class="social-link"
+            >
               <svg class="social-icon" width="25" height="25">
                 <use href="./img/symbol-defs.svg#icon-instagram"></use>
               </svg>
@@ -80,7 +136,8 @@
             <a
               target="_blank"
               href="https://www.facebook.com/vstepanchyk"
-              class="social-link">
+              class="social-link"
+            >
               <svg class="social-icon" width="25" height="25">
                 <use href="./img/symbol-defs.svg#icon-facebook"></use>
               </svg>
@@ -95,5 +152,6 @@
         <p>VLADYSLAVA STEPANCHUK</p>
       </div>
     </footer>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
